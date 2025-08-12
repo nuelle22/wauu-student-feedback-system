@@ -1,2 +1,12 @@
-# wauu-student-feedback-system
-A student feedback system for giving reviews on educational experiences 
+# StudentFeedbackSystem
+ * In this app, there are three user categories - Student, Lecturer, Admin.
+ * Students and Lecturers can register by entering their respective details and department info.
+ * A student can submit course evalutaion feedbacks (based on 5 stars rating) for those Lecturers who are in his department. Obviously this is annonymous.
+ * A Lecturer can see all the feedbacks submitted by students only for him which is shown by omitting the student info/ID (Annonymous) in a tabular view along with the average rating.
+ * An admin can manage the whole users list and feedback data. Users and Feedbacks data can also be deleted by an Admin.
+
+This app resembles to the existing TER survey functionality in IIUC Student Panel.
+
+RUN THE BELOW IN YOUR TERMINAL AFTER DOWNLOADING "Composer"
+Composer install
+php artisan serve 
